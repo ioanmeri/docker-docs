@@ -1,11 +1,6 @@
 # Docker Basics
 
-
-### List all Running Processes
-
-```
-docker ps
-```
+## Images
 
 ### List all images
 
@@ -13,10 +8,26 @@ docker ps
 docker images
 ```
 
-by size: 
+by size:
 ```
 docker images | sort -k7 -h -r
 ```
+
+### Delete an Image
+```
+docker image rm df5
+```
+
+[Documentation](https://docs.docker.com/engine/reference/commandline/image_rm/)
+
+### List all Running Processes
+
+```
+docker ps
+```
+
+
+
 
 ### Run Interactive Terminal
 
